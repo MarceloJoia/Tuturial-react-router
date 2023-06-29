@@ -16,6 +16,7 @@ export default function Invoices() {
                 {invoices.map((invoice) => (
                     <Link
                         style={{ display: "block", margin: "1rem 0" }}
+                        
                         to={`/invoices/${invoice.number}`}
                         key={invoice.number}
                     >
